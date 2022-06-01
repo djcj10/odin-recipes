@@ -1,0 +1,22 @@
+li {
+    color: pink;
+    font-size: 36px;
+}
+
+h1 {
+    font-size: 60px;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+}
+h2 {
+    font-size: 48px;
+    background-color: darkgreen;
+    color: white;
+    font-weight: italic;
+}
+
+h3 {
+    font-size: 42px;
+    font-weight: bold;
+}
