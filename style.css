@@ -6,9 +6,27 @@ body {
 li {
     color: rgb(71, 9, 243);
     font-size: 36px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    padding-left: 80px; /* Increases spacing between bullet and text */
+    list-style-position: inside; /* Moves bullets inside the padding */
+}
+
+li:hover {
+    color: rgb(243, 9, 71);
+    transform: scale(1.1);
+}
+
+img {
+    display: block;
+    margin-top: 10px; /* Optional spacing */
+    border: 40px pink solid;;
 }
 
 h1 {
+    display: inline-block;
+    padding: 10px 20px;
     font-size: 60px;
     background-color: darkblue;
     color: white;
@@ -16,6 +34,8 @@ h1 {
     text-align: center;
 }
 h2 {
+    display: inline-block;
+    margin: 50px;
     font-size: 48px;
     background-color: darkgreen;
     color: white;
